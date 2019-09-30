@@ -40,7 +40,7 @@ A idéia proposta é de um sistema online de doações, que permita uma interaç
     
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO        
-![Alt text](https://github.com/ViniciusHora1009/trabalho_bd1/blob/master/images/conceitual1.jpg "Modelo Conceitual")
+![Alt text](https://github.com/ViniciusHora1009/trabalho_bd1/blob/master/images/conceitual1-v2.jpg "Modelo Conceitual")
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
@@ -75,7 +75,7 @@ A idéia proposta é de um sistema online de doações, que permita uma interaç
         a) inclusão das instruções de criacão das estruturas DDL 
         (criação de tabelas, alterações, etc..) 
         
->## Marco de Entrega 01 em:<br>
+>## Marco de Entrega 01 em: 07/09/2019<br>
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
