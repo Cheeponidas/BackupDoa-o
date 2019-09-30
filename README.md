@@ -1,4 +1,4 @@
-# TRABALHO 01:  Ainda sem nome
+# TRABALHO 01:  App Doações (Aguardando nome do App pelo cliente)
 Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
@@ -9,29 +9,14 @@ Vinicius da Hora Corte: vinicius.hora100@hotmail.com<br>
 segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
-<br>e motivação da escolha realizada. <br>
-
-> A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
- 
+O sistema requisitado pelo cliente tem como propósito o gerenciamento dos usuários, tanto pessoas físicas quanto ONGs; e responsabiliza-se pelo fornecimento de meios para divulgação de suas doações e necessidades, além da comunicação entre ambas a parte a fim de interligar doador e necessitado para criar um ambiente de ajuda mútua onde todos são beneficiados.
 
 ### 3.MINI-MUNDO<br>
-
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
-Entrevista com o usuário e identificação dos requisitos.<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
-
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes. 
+A idéia proposta é de um sistema online de doações, que permita uma interação simples e fácil entre a pessoa que deseja doar um determinado item e a pessoa que deseja recebê-lo. O sistema permitirá o cadastro de usuários, tanto o usuário “pessoa” como o usuário “ONG”, havendo apenas algumas diferenças, como seus dados cadastrais, etc.. Ambos os usuários poderão tanto efetuar doações como solicitar suas respectivas necessidades. Entretanto, as “ONGs” só podem realizar doações diretamente para usuários com alguma necessidade. Na hora de efetuar uma pesquisa por uma doação, haverá um filtro, levando em consideração: Estado, cidade, categoria e o raio de distância. No mesmo contexto de busca, haverá outro método denominado Mapa de Necessidades, nele bastaria ao usuário ativar sua localização, para ver todos os itens disponíveis em sua proximidade. Já na hora de divulgar algo para doação, bastaria um título, estado do item, CEP, quantidade, uma breve descrição do item doado e se possível uma foto do item. O responsável pelo item doado teria uma lista de interessados a sua disposição e ficaria a seu critério escolher a quem ele vai doar o seu item. Haverá um chat entre o doador e a pessoa interessada, em que a pessoa interessada poderá tirar possíveis dúvidas que possam não ter sido sanadas somente com a breve descrição do item divulgado, e também planejar como será feito a sua entrega. Para evitar fraudes e outros problemas, cada pessoa física terá uma classificação que lhe é concebida através do feedback de outros usuários após a realização de doações, os comentários e notas estarão disponíveis em seu perfil. Também é possível denunciar divulgações e usuários que violem alguma diretriz do sistema. Na questão de controle, para que um usuário simplesmente não saia fazendo várias solicitações de diversos itens, o sistema contará com uma espécie de moeda única, por semana/mês (a definir), o usuário irá receber tantas moedas, e ao efetuar doações, ele também receberá um determinada quantidade de moeda, com isso em mente, dada a determinada categoria, o item doado terá tal valor.<br>
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
-
-Sugestão: https://balsamiq.com/products/mockups/<br>
-
-![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
+![Alt text](https://github.com/ViniciusHora1009/trabalho_bd1/blob/master/images/tela_doacao.PNG "Doação")
+![Arquivo PDF do Protótipo Balsamiq feito para o sistema](https://github.com/ViniciusHora1009/trabalho_bd1/blob/master/arquivos/Prototipo.pdf "App Doações")<br>
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
@@ -53,11 +38,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true "Tabela - Empresa Devcom")
     
 ### 5.MODELO CONCEITUAL<br>
-    A) NOTACAO ENTIDADE RELACIONAMENTO 
-        * Para nosso prótótipo limitaremos o modelo conceitual nas 6 principais entidades do escopo
-        * O protótipo deve possui no mínimo duas relações N para N
-        * o mínimo de entidades do modelo conceitual será igual a 5
-        
+    A) NOTACAO ENTIDADE RELACIONAMENTO        
 ![Alt text](https://github.com/ViniciusHora1009/trabalho_bd1/blob/master/images/conceitual1.jpg "Modelo Conceitual")
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
