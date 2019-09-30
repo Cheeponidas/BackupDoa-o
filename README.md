@@ -40,7 +40,7 @@ A idéia proposta é de um sistema online de doações, que permita uma interaç
     
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO        
-![Alt text](https://github.com/ViniciusHora1009/trabalho_bd1/blob/master/images/conceitual1-v2.jpg "Modelo Conceitual")
+![Alt text](https://github.com/ViniciusHora1009/trabalho_bd1/blob/master/images/conceitual1-v3.jpg "Modelo Conceitual")
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
