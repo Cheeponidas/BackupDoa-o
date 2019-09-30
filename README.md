@@ -1,11 +1,11 @@
-# TRABALHO 01:  Título do Trabalho
+# TRABALHO 01:  Ainda sem nome
 Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
+Vinicius da Hora Corte: vinicius.hora100@hotmail.com<br>
 segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
@@ -58,7 +58,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         * O protótipo deve possui no mínimo duas relações N para N
         * o mínimo de entidades do modelo conceitual será igual a 5
         
-![Alt text](https://github.com/discipbd1/trab01/blob/master/images/concept_sample.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/ViniciusHora1009/trabalho_bd1/blob/master/images/conceitual1.jpg "Modelo Conceitual")
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
