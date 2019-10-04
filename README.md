@@ -55,7 +55,23 @@ A idéia proposta é de um sistema online de doações, que permita uma interaç
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 Descrição dos dados 
-    [objeto]: [descrição do objeto]
+    PESSOA: Tabela que armazena informações relativa a pessoa física.<br>
+        ID_USUARIO: Campo que armazena o código de identificação de cada pessoa usuária do sistema.<br>
+        NUM_CELULAR: Campo que armazena o número do celular de cada pessoa usuária do sistema.<br>
+        EMAIL: Campo que armazena o endereço de email de cada pessoa usuária do sistema.<br>
+        DATA_NASCIMENTO: Campo que armazena a data de nascimento de cada pessoa usuária do sistema.<br>
+        SALDO: Campo que armazena o saldo da moeda virtual do sistema de cada pessoa usuária.<br>
+        NOME: Campo que armazena o nome de cada pessoa usuária.<br>
+    
+    ONG: Tabela que armazena informações relativa a ONG.<br>
+        ID_ONG: Campo que armazena o código de identificação de cada ONG usuária do sistema.<br>
+        CNPJ: Campo que armazena o cnpj de cada ONG usuária do sistema.<br>
+        EMAIL: Campo que armazena o email de cada ONG usuária do sistema.<br>
+        LATITUDE: Campo que armazena a latitude da localização de cada ONG usuária do sistema.<br>
+        LONGITUDE: Campo que armazena o longitude da localização de cada ONG usuária do sistema.<br>
+        NUM_CONTATO: Campo que armazena o número de contato de cada ONG usuária do sistema.<br>
+        NOME: Campo que armazena o nome de cada ONG usuária do sistema.<br>
+        
     
     EXEMPLO:
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
